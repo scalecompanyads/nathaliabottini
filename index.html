@@ -225,8 +225,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .about-text{background:var(--cream-50);border:1px solid var(--line);border-radius:var(--radius-lg);padding:48px 48px;display:flex;flex-direction:column;gap:18px;justify-content:center}
   .about-text h2 em{color:var(--gold-700);font-style:italic}
   .about-text p{color:var(--ink-soft)}
-  .about-text .oab{font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-700);margin-top:-6px}
-  .about-text .quote{font-family:var(--serif);font-size:25px;line-height:1.3;color:var(--wine-700);font-style:italic}
+  .about-text p{font-size:15.5px;line-height:1.65}
+  .creds{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:4px 0}
+  .creds li{display:flex;flex-direction:column;gap:3px;padding:14px 16px;border-radius:var(--radius-sm);background:var(--cream-100);border:1px solid var(--line)}
+  .creds strong{font-family:var(--serif);font-weight:500;font-size:19px;color:var(--wine-800);line-height:1.1}
+  .creds span{font-size:13px;line-height:1.4;color:var(--ink-soft)}
+  .about-text .quote{font-family:var(--serif);font-size:23px;line-height:1.3;color:var(--wine-700);font-style:italic}
 
   /* ---------- Sem formalização ---------- */
   .pending{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center;background:var(--cream-200);border-radius:var(--radius-lg);padding:48px 52px}
@@ -388,6 +392,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .diff-mcta{display:flex;justify-content:center;margin-top:32px}
     .about-photo{min-height:480px}
     .about-text,.pending{padding:38px 26px}
+    .creds{grid-template-columns:1fr}
     .pending{gap:34px}
     .pending-side{padding:30px 0 0;border-left:0;border-top:1px solid rgba(42,26,31,.15)}
     .pending-side h3{text-align:center}
@@ -724,16 +729,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="sec" style="padding-top:0">
   <div class="wrap about">
     <div class="about-photo rv">
-      <img src="assets/dra-nathalia.webp" alt="Dra. Nathalia Bottini, advogada de Direito de Família" width="1000" height="1416" loading="lazy">
+      <img src="assets/dra-nathalia.webp" alt="Dra. Nathalia Bottini Fernandes, advogada de Direito de Família" width="1000" height="1416" loading="lazy">
     </div>
     <div class="about-text rv">
-      <span class="eyebrow">Quem conduz o seu atendimento</span>
-      <h2 class="title">Nathalia Bottini <em>Advocacia</em></h2>
-      <p class="oab">Dra. Nathalia Bottini · OAB/SP 337.158</p>
-      <!-- PENDENTE: formação e trajetória da Dra. Nathalia. Texto abaixo usa apenas informações do briefing. -->
-      <p>O escritório atua em Direito de Família, com foco em <strong>divórcio extrajudicial, divórcio judicial e partilha de bens</strong> relacionada ao divórcio.</p>
-      <p>A atuação é um processo de <strong>orientação, organização e acompanhamento jurídico</strong>: entender a sua situação, analisar o patrimônio envolvido e indicar quais providências podem ser adotadas, sem promessas de resultado.</p>
-      <p class="quote">“Cada casamento possui regime de bens, patrimônio e circunstâncias diferentes. Por isso, cada caso é analisado individualmente.”</p>
+      <span class="eyebrow">Nosso escritório</span>
+      <h2 class="title">Cuidado, experiência e compromisso com o seu <em>recomeço</em></h2>
+      <p>No escritório Nathalia Bottini Advocacia, entendemos que questões familiares envolvem mais do que apenas leis: envolvem <strong>pessoas, histórias e sentimentos</strong>. Por isso, atuamos com sensibilidade, ética e excelência técnica para oferecer soluções jurídicas que respeitem seus valores e protejam quem você ama.</p>
+      <p>Com atuação focada em <strong>Direito de Família</strong>, prestamos assessoria e representação em casos de divórcio, guarda, pensão alimentícia, reconhecimento e dissolução de união estável, planejamento sucessório, inventário, entre outros. Nosso objetivo é garantir <strong>segurança jurídica e tranquilidade</strong> para você tomar decisões com clareza e confiança.</p>
+      <p>Sob a liderança da <strong>Dra. Nathalia Bottini Fernandes</strong>, o escritório combina um atendimento humanizado com <strong>estratégia jurídica personalizada</strong> a cada caso, sempre priorizando o diálogo, a escuta ativa e a busca por soluções que preservem o bem-estar emocional dos envolvidos.</p>
+      <ul class="creds">
+        <li><strong>OAB/SP 337.158</strong><span>Advogada desde 2011</span></li>
+        <li><strong>Pós-graduada</strong><span>Direito do Trabalho e Direito Previdenciário</span></li>
+        <li><strong>Pós-graduanda</strong><span>Direito de Família</span></li>
+      </ul>
+      <p class="quote">“Conte com a gente para transformar um momento delicado em um novo começo.”</p>
     </div>
   </div>
 </section>
